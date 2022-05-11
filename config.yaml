@@ -1,0 +1,21 @@
+
+# this are the bot configurations:
+#   telegram_channel_id is the id of the telegram channel where the news messages will be posted
+#   discord_channel_id is the discord channel tracked for news to be posted on telegram
+#   public_command_char is the prefix to be used on public commands (use quotes)
+#   commands are the command that the bot accept and their replies
+#   commands:
+#     start: string containing the initial message when starting a conversation
+#     help: string containing the help message
+#     private: map containing the words the bot hears on a private message and their replies
+#     public: map containing the words the bot hears on the channel (preceded by command_char) and their replies
+telegram_channel_id:
+discord_channel_id:
+public_command_prefix: '>'
+commands:
+  start: welcome to CyberForest
+  help: help
+  private:
+    test: test private message
+  public:
+    test: test public message
